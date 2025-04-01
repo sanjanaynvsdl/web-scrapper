@@ -30,7 +30,7 @@ async function summarizeReviews(reviews) {
       // Parse the JSON response
       const parsedResponse = JSON.parse(jsonString);
   
-      console.log("Parsed Response:", parsedResponse); 
+      // console.log("Parsed Response:", parsedResponse); 
   
       return parsedResponse;
     } catch (error) {

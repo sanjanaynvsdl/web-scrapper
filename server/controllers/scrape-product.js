@@ -7,12 +7,12 @@ async function scrapeAmazonProduct(url) {
         throw new Error("Invalid Amazon India URL.");
     }
 
-    const browser = await puppeteer.launch({ headless: false, args: ['--no-sandbox'] });
+    const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
     let page;
     try {
         page = await browser.newPage();
         
-        //using this so that amazon bot-cannot block 
+        //using this, so that amazon bot-cannot block 
          await page.setUserAgent(
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
         );
