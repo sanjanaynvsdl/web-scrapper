@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js"
+    "dev": "node index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "puppeteer": "^24.4.0",
     "puppeteer-core": "^24.4.0",
     "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2"
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "serverless-http": "^3.2.0"
   }
 }

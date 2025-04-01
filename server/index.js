@@ -21,6 +21,9 @@ app.get("/", (req, res) => {
 
 app.use("/api/v1/analyze", scrapeRoute);
 
-app.listen(3000, () => {
-    console.log(`Server is listening to port 3000`)
-});
+module.exports = app;
+
+//for-loclal devlopment
+// app.listen(3000, () => {
+//     console.log(`Server is listening to port 3000`)
+// });
