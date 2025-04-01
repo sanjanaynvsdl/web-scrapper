@@ -28,6 +28,10 @@ A full-stack web application that scrapes detailed data from any **Amazon India 
 | Deployment   | Vercel / Render / Railway |
 
 
+## Demo Video
+
+[![Watch the Demo](https://img.shields.io/badge/Watch%20Demo-%230A66C2?style=for-the-badge)](https://drive.google.com/file/d/1oPRyAhuKKXfLTb4wfWYLm9B5nIb9XjxK/view?usp=drive_link)
+
 
 
 ## Project Structure
